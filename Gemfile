@@ -7,7 +7,7 @@ gem 'rails', '4.2.1'
 gem 'sqlite3', group: [:development, :test]
 # Use postgresql as the database for production
 
-gem 'boostrap-sass', '3.3.1'
+gem 'bootstrap-sass', '3.3.1'
 
 group :production do
   gem 'pg'
