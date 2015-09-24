@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 <div class="row">
    <div class="col-md-4 col-md-offset-4">
        <div =class="well">
@@ -6,16 +9,21 @@
                     <%= f.label :name %>
                     <%= f.text_field :name, class: "form-control" %>
                 </div>
+                
                 <div class="form-group">    
                     <%= f.label :email %>
-                    <%= f.text_field  :email, class: "form-control"  %>
+                    <%= f.email_field  :email, class: "form-control"  %>
                 </div>
+                
                 <div class="form-group">    
-                    <%= f.label :comments %>        
-                    <%= f.text_area :comments, class: "form-control"  %>
+                    <%= f.label :comment %>        
+                    <%= f.text_area :comment, class: "form-control"  %>
                 </div>
-            <%= f.submit "Submit", class: 'btn btn-default' %>
+                
+                <%= f.submit "Submit", class: 'btn btn-default' %>
             <% end %>
         </div>
     </div>
 </div>
+</body>
+</html>
