@@ -10,6 +10,10 @@ end
 # Added for user authentication
 gem 'devise', '3.4.1'
 
+# Use stripe for handling payments
+gem 'stripe', '1.16.1'
+# Use figaro to hide secret keys
+gem 'figaro', '1.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
