@@ -1,5 +1,10 @@
 class CreateContacts < ActiveRecord::Migration
-  def down
-    drop_table :contacts
+  def change
+    create_table :contacts do |t|
+      t.string :name
+      t.string :email
+      t.text :comment
+      t.timestamps
+    end
   end
 end
