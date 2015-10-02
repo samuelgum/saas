@@ -1,4 +1,4 @@
-class Pay_plan < ActiveRecord::Base
+class Plan < ActiveRecord::Base
     
     has_many :users
     
